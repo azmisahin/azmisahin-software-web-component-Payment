@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.azmisahin.PlugIn.Payment.Models", "com.azmisahin.PlugIn.Payment.Models\com.azmisahin.PlugIn.Payment.Models.csproj", "{1E3465A0-FF07-4D59-B483-BC4965AF70FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.azmisahin.PlugIn.Payment.AzurePayment", "com.azmisahin.PlugIn.Payment.AzurePayment\com.azmisahin.PlugIn.Payment.AzurePayment.csproj", "{C385A9A3-9149-487E-AE48-E4DAC2BD4EE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1E3465A0-FF07-4D59-B483-BC4965AF70FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E3465A0-FF07-4D59-B483-BC4965AF70FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E3465A0-FF07-4D59-B483-BC4965AF70FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C385A9A3-9149-487E-AE48-E4DAC2BD4EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C385A9A3-9149-487E-AE48-E4DAC2BD4EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C385A9A3-9149-487E-AE48-E4DAC2BD4EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C385A9A3-9149-487E-AE48-E4DAC2BD4EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

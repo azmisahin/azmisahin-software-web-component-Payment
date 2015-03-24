@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.azmisahin.PlugIn.Paymen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.azmisahin.PlugIn.Payment", "com.azmisahin.PlugIn.Payment\com.azmisahin.PlugIn.Payment.csproj", "{6C211D66-8932-404E-BAAA-4EAA46C6FA27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.azmisahin.PlugIn.Payment.Tests", "com.azmisahin.PlugIn.Payment.Tests\com.azmisahin.PlugIn.Payment.Tests.csproj", "{C3BF4067-E3E9-4DFF-88D9-155C0637B722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6C211D66-8932-404E-BAAA-4EAA46C6FA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C211D66-8932-404E-BAAA-4EAA46C6FA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C211D66-8932-404E-BAAA-4EAA46C6FA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BF4067-E3E9-4DFF-88D9-155C0637B722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BF4067-E3E9-4DFF-88D9-155C0637B722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BF4067-E3E9-4DFF-88D9-155C0637B722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BF4067-E3E9-4DFF-88D9-155C0637B722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

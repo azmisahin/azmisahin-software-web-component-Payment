@@ -82,7 +82,14 @@ Transaction Based Payment PlugIn Manager
                 .SetState("MURATPASA")
                 .SetStreet("ATATURK")
                 .SetZip(07700)
-                .AddItem(new ProductItem { ID = 15, Description = "Virtual Money", Price = 10, Quantity = 100, ProductCode = "VM15", Total = 100.0m })
+                .AddItem(new ProductItem {
+                        ID = 15, 
+                        Description = "Virtual Money",
+                        Price = 10,
+                        Quantity = 100,
+                        ProductCode = "VM15",
+                        Total = 100.0m 
+                 })
                 .Start();
 
             switch (response.HEADER.ChargeModel)
@@ -91,7 +98,8 @@ Transaction Based Payment PlugIn Manager
                     responseWrite(response);
                     break;
                 case ChargeModel.ThreeD:
-                    Console.WriteLine("Query:{0} Token:{1}", response.HEADER.Query, response.HEADER.Token);
+                    Console.WriteLine("Query:{0} Token:{1}",
+                        response.HEADER.Query, response.HEADER.Token);
                     break;
                 case ChargeModel.Common:
                     break;
